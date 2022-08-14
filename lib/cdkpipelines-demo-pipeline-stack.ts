@@ -27,7 +27,7 @@ import { ShellScriptAction } from '@aws-cdk/pipelines';
         oauthToken: SecretValue.secretsManager('github-token'),
         owner: 'renegmed',
         repo: 'cdk-pipelines-ts-demo',
-        branch: 'main'
+        branch: 'master'
       }),
 
       // How it will be built and synthesized
